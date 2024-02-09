@@ -6707,6 +6707,28 @@ footer .footerWrapper .socialLink ul li {
 }
 
 
+@media all and (max-width:1600px){
+	.spltreatmentpara {
+	color: #30292b !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	text-align: center !important;
+	line-height: 20px !important;
+}
+}
+
+
+@media all and (max-width:1440px){
+	.spltreatmentpara {
+	color: #30292b !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	text-align: center !important;
+	line-height: 20px !important;
+}
+}
+
+
 @media all and (max-width:1024px){
 
 	.ourspltreatment{
@@ -6784,4 +6806,16 @@ footer .footerWrapper .socialLink ul li {
    	padding-top: 70px;
    }
 
+}
+
+
+.resultsSliderBox::before {
+    background: linear-gradient(to bottom, #333232, #000000);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
 }
